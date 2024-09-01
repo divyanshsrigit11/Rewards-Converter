@@ -19,7 +19,7 @@ public class rewards_Converter {
     }
 class RewardValue {
     private double cashValue;
-    private static final double MILES_CONVERSION_RATE = 100.0; // Example: 1 dollar = 100 miles
+    private static final double MILES_CONVERSION_RATE = 100.0; // Assume: 1 dollar = 100 miles
 
     public RewardValue(double cashValue) {
         this.cashValue = cashValue;
